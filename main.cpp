@@ -2,6 +2,7 @@
 #include <stdio.h>
 int main()
 {
+    int Cont;
     int Page;
     int C;
     int Sensor;
@@ -29,20 +30,47 @@ int main()
     printf("\n");
     printf("Press 1 to help understand sensors\n");
     printf("Press 2 to learn to use C/C++\n");
-    scanf(" %d", &Sensor);
-    scanf(" %d", &C);
+    scanf(" %d", &Cont);
     /* This determins what to do*/
-    if (Sensor==1)
+    if (Cont==1)
     printf("2222\n");
+ 
     
-    if (C==2)
-    printf("Debug\n");
-
+    
+    if (Cont==2)
+    printf("Welome to learn to program in C/C++\n");
+    printf("printf\n");
+    printf("prints text on the screen\n");
+    printf("scanf\n");
+    printf("scans for input\n");
+    printf("int means a intger\n");
+    printf("if means if then statements");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n"); 
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("Press 1 to go to the Sensors section\n");
+    printf("Press 2 to countitune the tutoral of C/C++\n");
+    printf("Press 3 to exit\n");
+    scanf(" %d", &Cont);
+    if (Cont==1)
+    
+    if (Cont==2)
+    
+    if (Cont==3)
     printf("Thank you\n");
     printf("Copyright danielt3131\n");
     printf("Made By danielt3131\n");
     printf("Built by danielt3131\n");
-   printf("Press 0 to exit\n");
+    printf("Press 0 to exit\n");
     scanf(" %d", &number_exit);
     if (number_exit ==0)
     timer=timer+2;

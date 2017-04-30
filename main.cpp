@@ -1,6 +1,6 @@
 /* Prints a message on the screen */
 #include <stdio.h>
-main()
+int main()
 {
     int Page;
     int C;

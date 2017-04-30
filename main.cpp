@@ -33,7 +33,8 @@ int main()
     scanf(" %d", &Cont);
     /* This determins what to do*/
     if (Cont==1)
-    printf("2222\n");
+    printf("Our PBL is on Wellness\n");
+    printf("Sensors to dectect if pathogens can reproduce\n");
  
     
     

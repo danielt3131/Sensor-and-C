@@ -35,9 +35,15 @@ int main()
     if (Cont==1)
     printf("Our PBL is on Wellness\n");
     printf("Sensors to dectect if pathogens can reproduce\n");
- 
-    
-    
+    printf("This is made by Daniel Thompson\n");
+    printf("Press 1 to contitube on the Sensors section\n");
+    printf("Press 2 to go to the C/C++ Section\n");
+    printf("Press 3 to exit\n");
+    scanf(" d", &Cont);
+    if (Cont==1)
+    printf("Content will come in a future patch\n");
+    if (Cont==3)
+    printf("Close\n");
     if (Cont==2)
     printf("Welome to learn to program in C/C++\n");
     printf("printf\n");
@@ -63,8 +69,12 @@ int main()
     printf("Press 3 to exit\n");
     scanf(" %d", &Cont);
     if (Cont==1)
+    printf("Our PBL is on Wellness\n");
+    printf("Sensors to dectect if pathogens can reproduce\n");
+    printf("This is made by Daniel Thompson\n");
     
     if (Cont==2)
+    printf("Content will come in a future patch\n");
     
     if (Cont==3)
     printf("Thank you\n");

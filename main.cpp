@@ -106,8 +106,33 @@ int main()
     }
     if (C==2)
     {
+       printf("Welome to learn to program in C/C++\n");
+    printf("printf\n");
+    printf("prints text on the screen\n");
+    printf("scanf\n");
+    printf("scans for input\n");
+    printf("int means a intger\n");
+    printf("if means if then statements");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n"); 
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("Press 2 to countitune the tutoral of C/C++\n");
+    printf("Press 3 to exit\n");
+    scanf(" %d", &C);
+    }
+    if (C==2)
+    {
     printf("Content will come in a future patch\n");
-	}
+    }
     if (C==3)
     printf("Thank you\n");
     printf("Copyright danielt3131\n");
